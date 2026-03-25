@@ -297,8 +297,8 @@ const siteContent = {
         {
             icon: "🎓",
             degree: "B.Tech in Computer Engineering",
-            institution: "SPJIMR, Mumbai",
-            year: "2001"
+            institution: "VR Siddhartha Engineering College",
+            year: "2000"
         },
         {
             icon: "📜",
@@ -314,7 +314,7 @@ const siteContent = {
         },
         {
             icon: "🏅",
-            degree: "Azure Solutions Architect Expert",
+            degree: "Azure Cloud Practitioner",
             institution: "Microsoft",
             year: "2020"
         }

@@ -681,6 +681,75 @@ section {
 }
 
 /* ========================================
+   SOCIAL PROOF SECTION
+   ======================================== */
+
+.social-proof-section {
+    background-color: var(--color-bg-tertiary);
+    padding: var(--spacing-2xl) 0;
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.social-proof-label {
+    text-align: center;
+    font-family: var(--font-body);
+    font-size: var(--font-size-sm);
+    font-weight: 500;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: var(--spacing-xl);
+}
+
+.social-proof-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: var(--spacing-xl);
+    max-width: var(--container-xl);
+    margin: 0 auto;
+}
+
+.company-logo {
+    font-family: var(--font-heading);
+    font-size: var(--font-size-base);
+    font-weight: 600;
+    color: var(--color-text-muted);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    background-color: var(--color-bg-card);
+    opacity: 0.4;
+    filter: grayscale(100%);
+    transition: all var(--transition-base);
+    white-space: nowrap;
+    text-align: center;
+}
+
+.company-logo:hover {
+    opacity: 0.6;
+    filter: grayscale(80%);
+    transform: translateY(-2px);
+    border-color: var(--color-border-light);
+}
+
+.company-logo img {
+    max-height: 40px;
+    width: auto;
+    display: block;
+    opacity: 0.4;
+    filter: grayscale(100%);
+    transition: all var(--transition-base);
+}
+
+.company-logo:hover img {
+    opacity: 0.6;
+    filter: grayscale(80%);
+}
+
+/* ========================================
    FOCUS SECTION
    ======================================== */
 
@@ -1414,6 +1483,15 @@ section {
     
     .social-links {
         justify-content: center;
+    }
+    
+    .social-proof-logos {
+        gap: var(--spacing-md);
+    }
+    
+    .company-logo {
+        font-size: var(--font-size-sm);
+        padding: var(--spacing-xs) var(--spacing-sm);
     }
     
     .cta-button {
