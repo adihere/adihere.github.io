@@ -21,7 +21,6 @@ const siteContent = {
     navExperience: "Experience",
     navCaseStudies: "Case Studies",
     navEducation: "Education",
-    navAchievements: "Achievements",
     navContact: "Contact",
 
     // Hero Section
@@ -256,40 +255,10 @@ const siteContent = {
         }
     ],
 
-    // Achievements Section
-    achievementsTitle: "Achievements & Awards",
-    achievements: [
-        {
-            icon: "🏆",
-            title: "AI Transformation Leadership",
-            description: "Successfully led enterprise-wide AI transformation initiatives at major financial services organizations",
-            year: "Recent"
-        },
-        {
-            icon: "⭐",
-            title: "Programme Excellence",
-            description: "Delivered complex technology programs on time and within budget across multiple geographies",
-            year: "Recent"
-        },
-        {
-            icon: "🎖️",
-            title: "Innovation Champion",
-            description: "Recognized for driving innovation and adopting emerging technologies to solve business challenges",
-            year: "Recent"
-        },
-        {
-            icon: "🌟",
-            title: "Team Building",
-            description: "Built and led high-performing technology teams that consistently delivered exceptional results",
-            year: "Recent"
-        }
-    ],
-
     // Contact Section
     contactTitle: "Get In Touch",
     contactSubtitle: "Let's Connect",
-    contactDescription: "I'm always open to discussing new opportunities, collaborations, or sharing insights about AI and technology leadership.",
-    contactEmail: "your.email@example.com",
+    contactDescription: "Let's connect and explore how we can collaborate on AI initiatives, technology transformation, or share insights on driving innovation in financial services.",
     contactLocation: "London, UK",
     formLabelName: "Name",
     formLabelEmail: "Email",
@@ -298,11 +267,10 @@ const siteContent = {
     formSubmit: "Send Message",
 
     // Social Links
-    // TODO: Update these with actual social media handles
     socialLinks: {
-        linkedin: "https://linkedin.com/in/yourprofile",
-        twitter: "https://twitter.com/yourhandle",
-        github: "https://github.com/yourusername"
+        linkedin: "https://www.linkedin.com/in/adityavadaganadam/",
+        twitter: "https://x.com/adihere",
+        github: "https://github.com/adihere"
     },
 
     // Footer
@@ -485,33 +453,12 @@ function renderEducation() {
 }
 
 /**
- * Render achievements section content
- */
-function renderAchievements() {
-    setTextContent('[data-content="achievementsTitle"]', siteContent.achievementsTitle);
-
-    const achievementItems = document.querySelectorAll('.achievement-item');
-    siteContent.achievements.forEach((achievement, index) => {
-        if (achievementItems[index]) {
-            const item = achievementItems[index];
-            setTextContentInElement(item.querySelector('[data-content*="Icon"]'), achievement.icon);
-            setTextContentInElement(item.querySelector('[data-content*="Title"]'), achievement.title);
-            setTextContentInElement(item.querySelector('[data-content*="Description"]'), achievement.description);
-            setTextContentInElement(item.querySelector('[data-content*="Year"]'), achievement.year);
-        } else {
-            console.warn(`Achievement item index ${index} not found in HTML. Consider adding more achievements.`);
-        }
-    });
-}
-
-/**
  * Render contact section content
  */
 function renderContact() {
     setTextContent('[data-content="contactTitle"]', siteContent.contactTitle);
     setTextContent('[data-content="contactSubtitle"]', siteContent.contactSubtitle);
     setTextContent('[data-content="contactDescription"]', siteContent.contactDescription);
-    setTextContent('[data-content="contactEmail"]', siteContent.contactEmail);
     setTextContent('[data-content="contactLocation"]', siteContent.contactLocation);
     setTextContent('[data-content="formLabelName"]', siteContent.formLabelName);
     setTextContent('[data-content="formLabelEmail"]', siteContent.formLabelEmail);
@@ -519,10 +466,13 @@ function renderContact() {
     setTextContent('[data-content="formLabelMessage"]', siteContent.formLabelMessage);
     setTextContent('[data-content="formSubmit"]', siteContent.formSubmit);
     
-    // Update email link
-    const emailLink = document.querySelector('.contact-link[href^="mailto:"]');
-    if (emailLink) {
-        emailLink.href = `mailto:${siteContent.contactEmail}`;
+    // Update email link if email is provided
+    if (siteContent.contactEmail) {
+        setTextContent('[data-content="contactEmail"]', siteContent.contactEmail);
+        const emailLink = document.querySelector('.contact-link[href^="mailto:"]');
+        if (emailLink) {
+            emailLink.href = `mailto:${siteContent.contactEmail}`;
+        }
     }
     
     // Update social links
@@ -560,7 +510,6 @@ function renderFooter() {
         navExperience: siteContent.navExperience,
         navCaseStudies: siteContent.navCaseStudies,
         navEducation: siteContent.navEducation,
-        navAchievements: siteContent.navAchievements,
         navContact: siteContent.navContact
     };
     
@@ -708,7 +657,7 @@ function updateActiveNavLink() {
  * Initialize scroll-based animations
  */
 function initScrollAnimations() {
-    const animatedElements = document.querySelectorAll('.section-title, .focus-card, .skill-item, .experience-item, .case-study-card, .education-item, .achievement-item');
+    const animatedElements = document.querySelectorAll('.section-title, .focus-card, .skill-item, .experience-item, .case-study-card, .education-item');
     
     // Create intersection observer
     const observerOptions = {
@@ -852,7 +801,6 @@ function init() {
     renderExperience();
     renderCaseStudies();
     renderEducation();
-    renderAchievements();
     renderContact();
     renderFooter();
     
