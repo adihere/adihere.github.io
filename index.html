@@ -1,0 +1,550 @@
+<!-- 
+  index.html - Main HTML structure for personal technology leadership & AI portfolio website
+  This file contains the semantic HTML5 structure with all required sections.
+  Content is dynamically populated from the siteContent object in script.js.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Senior Technology Leader & AI Transformation Specialist - Portfolio showcasing 23+ years of experience in financial services">
+    <meta name="keywords" content="Technology Leadership, AI Transformation, Financial Services, Digital Strategy">
+    <meta name="author" content="Technology Leader">
+    <title>Technology Leadership & AI Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+        <nav class="nav-container">
+            <div class="nav-brand">
+                <a href="#home" class="brand-link" data-content="brandName">Portfolio</a>
+            </div>
+            
+            <!-- Desktop Navigation -->
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link" data-content="navHome">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link" data-content="navAbout">About</a></li>
+                <li class="nav-item"><a href="#focus" class="nav-link" data-content="navFocus">Focus</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link" data-content="navSkills">Skills</a></li>
+                <li class="nav-item"><a href="#experience" class="nav-link" data-content="navExperience">Experience</a></li>
+                <li class="nav-item"><a href="#case-studies" class="nav-link" data-content="navCaseStudies">Case Studies</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link" data-content="navEducation">Education</a></li>
+                <li class="nav-item"><a href="#achievements" class="nav-link" data-content="navAchievements">Achievements</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link" data-content="navContact">Contact</a></li>
+            </ul>
+            
+            <!-- Mobile Hamburger Menu -->
+            <div class="hamburger-container">
+                <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-name" data-content="heroName">Your Name</h1>
+                    <h2 class="hero-title" data-content="heroTitle">Senior Technology Leader & AI Transformation Specialist</h2>
+                    <p class="hero-tagline" data-content="heroTagline">Transforming financial services through strategic AI implementation and digital innovation</p>
+                    
+                    <div class="hero-cta">
+                        <a href="#contact" class="cta-button primary" data-content="ctaPrimary">Get In Touch</a>
+                        <!-- TODO: Update CV file link below -->
+                        <a href="assets/cv.pdf" class="cta-button secondary" data-content="ctaSecondary" download>Download CV</a>
+                    </div>
+                </div>
+                
+                <div class="hero-image">
+                    <!-- TODO: Replace with your profile image -->
+                    <div class="profile-image-placeholder">
+                        <span data-content="profileImageAlt">Profile Image</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title" data-content="aboutTitle">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p class="about-intro" data-content="aboutIntro">Introduction paragraph about your background and expertise...</p>
+                        <p class="about-description" data-content="aboutDescription">Detailed description of your experience and approach...</p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-number" data-content="highlightYears">23+</span>
+                            <span class="highlight-label" data-content="highlightYearsLabel">Years Experience</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number" data-content="highlightProjects">50+</span>
+                            <span class="highlight-label" data-content="highlightProjectsLabel">Projects Delivered</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number" data-content="highlightTransformations">15+</span>
+                            <span class="highlight-label" data-content="highlightTransformationsLabel">AI Transformations</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Focus Areas Section -->
+        <section id="focus" class="focus-section">
+            <div class="container">
+                <h2 class="section-title" data-content="focusTitle">Focus Areas</h2>
+                <div class="focus-grid">
+                    <article class="focus-card" data-focus="1">
+                        <div class="focus-icon" data-content="focus1Icon">🎯</div>
+                        <h3 class="focus-title" data-content="focus1Title">AI Strategy & Transformation</h3>
+                        <p class="focus-description" data-content="focus1Description">Description of AI strategy and transformation focus area...</p>
+                    </article>
+                    <article class="focus-card" data-focus="2">
+                        <div class="focus-icon" data-content="focus2Icon">🚀</div>
+                        <h3 class="focus-title" data-content="focus2Title">Digital Innovation</h3>
+                        <p class="focus-description" data-content="focus2Description">Description of digital innovation focus area...</p>
+                    </article>
+                    <article class="focus-card" data-focus="3">
+                        <div class="focus-icon" data-content="focus3Icon">💼</div>
+                        <h3 class="focus-title" data-content="focus3Title">Financial Services Leadership</h3>
+                        <p class="focus-description" data-content="focus3Description">Description of financial services leadership focus area...</p>
+                    </article>
+                    <article class="focus-card" data-focus="4">
+                        <div class="focus-icon" data-content="focus4Icon">🤖</div>
+                        <h3 class="focus-title" data-content="focus4Title">Machine Learning Implementation</h3>
+                        <p class="focus-description" data-content="focus4Description">Description of machine learning implementation focus area...</p>
+                    </article>
+                    <article class="focus-card" data-focus="5">
+                        <div class="focus-icon" data-content="focus5Icon">📊</div>
+                        <h3 class="focus-title" data-content="focus5Title">Data Strategy</h3>
+                        <p class="focus-description" data-content="focus5Description">Description of data strategy focus area...</p>
+                    </article>
+                    <article class="focus-card" data-focus="6">
+                        <div class="focus-icon" data-content="focus6Icon">🔐</div>
+                        <h3 class="focus-title" data-content="focus6Title">Enterprise Architecture</h3>
+                        <p class="focus-description" data-content="focus6Description">Description of enterprise architecture focus area...</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <h2 class="section-title" data-content="skillsTitle">Skills & Expertise</h2>
+                <div class="skills-container">
+                    <div class="skills-category">
+                        <h3 class="category-title" data-content="skillsCategory1">Technical Skills</h3>
+                        <ul class="skills-list" data-skills="technical">
+                            <li class="skill-item" data-content="skill1">Skill 1</li>
+                            <li class="skill-item" data-content="skill2">Skill 2</li>
+                            <li class="skill-item" data-content="skill3">Skill 3</li>
+                            <li class="skill-item" data-content="skill4">Skill 4</li>
+                            <li class="skill-item" data-content="skill5">Skill 5</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3 class="category-title" data-content="skillsCategory2">Leadership Skills</h3>
+                        <ul class="skills-list" data-skills="leadership">
+                            <li class="skill-item" data-content="skill6">Skill 6</li>
+                            <li class="skill-item" data-content="skill7">Skill 7</li>
+                            <li class="skill-item" data-content="skill8">Skill 8</li>
+                            <li class="skill-item" data-content="skill9">Skill 9</li>
+                            <li class="skill-item" data-content="skill10">Skill 10</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3 class="category-title" data-content="skillsCategory3">Industry Knowledge</h3>
+                        <ul class="skills-list" data-skills="industry">
+                            <li class="skill-item" data-content="skill11">Skill 11</li>
+                            <li class="skill-item" data-content="skill12">Skill 12</li>
+                            <li class="skill-item" data-content="skill13">Skill 13</li>
+                            <li class="skill-item" data-content="skill14">Skill 14</li>
+                            <li class="skill-item" data-content="skill15">Skill 15</li>
+                        </ul>
+                    </div>
+                    <div class="skills-category">
+                        <h3 class="category-title" data-content="skillsCategory4">Operating Model & Ways of Working</h3>
+                        <ul class="skills-list" data-skills="operating">
+                            <li class="skill-item" data-content="skill16">Skill 16</li>
+                            <li class="skill-item" data-content="skill17">Skill 17</li>
+                            <li class="skill-item" data-content="skill18">Skill 18</li>
+                            <li class="skill-item" data-content="skill19">Skill 19</li>
+                            <li class="skill-item" data-content="skill20">Skill 20</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience/Engagements Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <h2 class="section-title" data-content="experienceTitle">Professional Engagements</h2>
+                <div class="experience-timeline">
+                    <!-- TODO: Update specific engagement details below -->
+                    <article class="experience-item" data-engagement="1">
+                        <div class="experience-date" data-content="exp1Date">2020 - Present</div>
+                        <div class="experience-content">
+                            <h3 class="experience-role" data-content="exp1Role">Senior Technology Leader</h3>
+                            <h4 class="experience-company" data-content="exp1Company">Company Name</h4>
+                            <p class="experience-description" data-content="exp1Description">Description of responsibilities and achievements...</p>
+                            <ul class="experience-achievements" data-achievements="1">
+                                <li data-content="exp1Achievement1">Achievement 1</li>
+                                <li data-content="exp1Achievement2">Achievement 2</li>
+                                <li data-content="exp1Achievement3">Achievement 3</li>
+                            </ul>
+                        </div>
+                    </article>
+                    
+                    <article class="experience-item" data-engagement="2">
+                        <div class="experience-date" data-content="exp2Date">2015 - 2020</div>
+                        <div class="experience-content">
+                            <h3 class="experience-role" data-content="exp2Role">Technology Director</h3>
+                            <h4 class="experience-company" data-content="exp2Company">Company Name</h4>
+                            <p class="experience-description" data-content="exp2Description">Description of responsibilities and achievements...</p>
+                            <ul class="experience-achievements" data-achievements="2">
+                                <li data-content="exp2Achievement1">Achievement 1</li>
+                                <li data-content="exp2Achievement2">Achievement 2</li>
+                                <li data-content="exp2Achievement3">Achievement 3</li>
+                            </ul>
+                        </div>
+                    </article>
+                    
+                    <article class="experience-item" data-engagement="3">
+                        <div class="experience-date" data-content="exp3Date">2010 - 2015</div>
+                        <div class="experience-content">
+                            <h3 class="experience-role" data-content="exp3Role">Senior Technology Manager</h3>
+                            <h4 class="experience-company" data-content="exp3Company">Company Name</h4>
+                            <p class="experience-description" data-content="exp3Description">Description of responsibilities and achievements...</p>
+                            <ul class="experience-achievements" data-achievements="3">
+                                <li data-content="exp3Achievement1">Achievement 1</li>
+                                <li data-content="exp3Achievement2">Achievement 2</li>
+                                <li data-content="exp3Achievement3">Achievement 3</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="experience-item" data-engagement="4">
+                        <div class="experience-date" data-content="exp4Date">Recent</div>
+                        <div class="experience-content">
+                            <h3 class="experience-role" data-content="exp4Role">Automation Enablement Lead</h3>
+                            <h4 class="experience-company" data-content="exp4Company">Fortune 500 Manufacturer</h4>
+                            <p class="experience-description" data-content="exp4Description">Set up automation-enablement team to drive process optimization</p>
+                            <ul class="experience-achievements" data-achievements="4">
+                                <li data-content="exp4Achievement1">Achievement 1</li>
+                                <li data-content="exp4Achievement2">Achievement 2</li>
+                                <li data-content="exp4Achievement3">Achievement 3</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="experience-item" data-engagement="5">
+                        <div class="experience-date" data-content="exp5Date">Recent</div>
+                        <div class="experience-content">
+                            <h3 class="experience-role" data-content="exp5Role">Analytics Service Line Lead</h3>
+                            <h4 class="experience-company" data-content="exp5Company">Global Industrial Client</h4>
+                            <p class="experience-description" data-content="exp5Description">Built agile analytics service line to support data-driven decision making</p>
+                            <ul class="experience-achievements" data-achievements="5">
+                                <li data-content="exp5Achievement1">Achievement 1</li>
+                                <li data-content="exp5Achievement2">Achievement 2</li>
+                                <li data-content="exp5Achievement3">Achievement 3</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="experience-item" data-engagement="6">
+                        <div class="experience-date" data-content="exp6Date">Recent</div>
+                        <div class="experience-content">
+                            <h3 class="experience-role" data-content="exp6Role">Managed Service Co-Lead</h3>
+                            <h4 class="experience-company" data-content="exp6Company">UK Bank</h4>
+                            <p class="experience-description" data-content="exp6Description">Co-led setup and scaling of large managed service operation</p>
+                            <ul class="experience-achievements" data-achievements="6">
+                                <li data-content="exp6Achievement1">Achievement 1</li>
+                                <li data-content="exp6Achievement2">Achievement 2</li>
+                                <li data-content="exp6Achievement3">Achievement 3</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="experience-item" data-engagement="7">
+                        <div class="experience-date" data-content="exp7Date">Recent</div>
+                        <div class="experience-content">
+                            <h3 class="experience-role" data-content="exp7Role">Portfolio Manager</h3>
+                            <h4 class="experience-company" data-content="exp7Company">International Markets</h4>
+                            <p class="experience-description" data-content="exp7Description">Managed ~90-person portfolio delivering to 30+ international markets</p>
+                            <ul class="experience-achievements" data-achievements="7">
+                                <li data-content="exp7Achievement1">Achievement 1</li>
+                                <li data-content="exp7Achievement2">Achievement 2</li>
+                                <li data-content="exp7Achievement3">Achievement 3</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <article class="experience-item" data-engagement="8">
+                        <div class="experience-date" data-content="exp8Date">Recent</div>
+                        <div class="experience-content">
+                            <h3 class="experience-role" data-content="exp8Role">Full-stack IT Consultant</h3>
+                            <h4 class="experience-company" data-content="exp8Company">Global Financial Services</h4>
+                            <p class="experience-description" data-content="exp8Description">Worked as full-stack IT consultant on global roll-out of corporate payments platform</p>
+                            <ul class="experience-achievements" data-achievements="8">
+                                <li data-content="exp8Achievement1">Achievement 1</li>
+                                <li data-content="exp8Achievement2">Achievement 2</li>
+                                <li data-content="exp8Achievement3">Achievement 3</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Section -->
+        <section id="case-studies" class="case-studies-section">
+            <div class="container">
+                <h2 class="section-title" data-content="caseStudiesTitle">Case Studies</h2>
+                <div class="case-studies-grid">
+                    <article class="case-study-card" data-case="1">
+                        <div class="case-study-image">
+                            <div class="case-study-placeholder" data-content="case1ImageAlt">Case Study 1 Image</div>
+                        </div>
+                        <div class="case-study-content">
+                            <h3 class="case-study-title" data-content="case1Title">Case Study Title 1</h3>
+                            <p class="case-study-summary" data-content="case1Summary">Brief summary of the case study...</p>
+                            <div class="case-study-tags">
+                                <span class="tag" data-content="case1Tag1">Tag 1</span>
+                                <span class="tag" data-content="case1Tag2">Tag 2</span>
+                                <span class="tag" data-content="case1Tag3">Tag 3</span>
+                            </div>
+                            <a href="#" class="case-study-link" data-content="case1LinkText">Read More →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="case-study-card" data-case="2">
+                        <div class="case-study-image">
+                            <div class="case-study-placeholder" data-content="case2ImageAlt">Case Study 2 Image</div>
+                        </div>
+                        <div class="case-study-content">
+                            <h3 class="case-study-title" data-content="case2Title">Case Study Title 2</h3>
+                            <p class="case-study-summary" data-content="case2Summary">Brief summary of the case study...</p>
+                            <div class="case-study-tags">
+                                <span class="tag" data-content="case2Tag1">Tag 1</span>
+                                <span class="tag" data-content="case2Tag2">Tag 2</span>
+                                <span class="tag" data-content="case2Tag3">Tag 3</span>
+                            </div>
+                            <a href="#" class="case-study-link" data-content="case2LinkText">Read More →</a>
+                        </div>
+                    </article>
+                    
+                    <article class="case-study-card" data-case="3">
+                        <div class="case-study-image">
+                            <div class="case-study-placeholder" data-content="case3ImageAlt">Case Study 3 Image</div>
+                        </div>
+                        <div class="case-study-content">
+                            <h3 class="case-study-title" data-content="case3Title">Case Study Title 3</h3>
+                            <p class="case-study-summary" data-content="case3Summary">Brief summary of the case study...</p>
+                            <div class="case-study-tags">
+                                <span class="tag" data-content="case3Tag1">Tag 1</span>
+                                <span class="tag" data-content="case3Tag2">Tag 2</span>
+                                <span class="tag" data-content="case3Tag3">Tag 3</span>
+                            </div>
+                            <a href="#" class="case-study-link" data-content="case3LinkText">Read More →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <div class="container">
+                <h2 class="section-title" data-content="educationTitle">Education & Certifications</h2>
+                <div class="education-grid">
+                    <article class="education-item" data-education="1">
+                        <div class="education-icon" data-content="edu1Icon">🎓</div>
+                        <div class="education-content">
+                            <h3 class="education-degree" data-content="edu1Degree">Degree Name</h3>
+                            <h4 class="education-institution" data-content="edu1Institution">Institution Name</h4>
+                            <p class="education-year" data-content="edu1Year">Year</p>
+                        </div>
+                    </article>
+                    
+                    <article class="education-item" data-education="2">
+                        <div class="education-icon" data-content="edu2Icon">📜</div>
+                        <div class="education-content">
+                            <h3 class="education-degree" data-content="edu2Degree">Certification Name</h3>
+                            <h4 class="education-institution" data-content="edu2Institution">Certifying Organization</h4>
+                            <p class="education-year" data-content="edu2Year">Year</p>
+                        </div>
+                    </article>
+                    
+                    <article class="education-item" data-education="3">
+                        <div class="education-icon" data-content="edu3Icon">📚</div>
+                        <div class="education-content">
+                            <h3 class="education-degree" data-content="edu3Degree">Certification Name</h3>
+                            <h4 class="education-institution" data-content="edu3Institution">Certifying Organization</h4>
+                            <p class="education-year" data-content="edu3Year">Year</p>
+                        </div>
+                    </article>
+
+                    <article class="education-item" data-education="4">
+                        <div class="education-icon" data-content="edu4Icon">🏅</div>
+                        <div class="education-content">
+                            <h3 class="education-degree" data-content="edu4Degree">Azure Solutions Architect Expert</h3>
+                            <h4 class="education-institution" data-content="edu4Institution">Microsoft</h4>
+                            <p class="education-year" data-content="edu4Year">Certification Year</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements-section">
+            <div class="container">
+                <h2 class="section-title" data-content="achievementsTitle">Achievements & Awards</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-item" data-achievement="1">
+                        <div class="achievement-icon" data-content="ach1Icon">🏆</div>
+                        <h3 class="achievement-title" data-content="ach1Title">Achievement Title 1</h3>
+                        <p class="achievement-description" data-content="ach1Description">Description of the achievement...</p>
+                        <span class="achievement-year" data-content="ach1Year">Year</span>
+                    </div>
+                    
+                    <div class="achievement-item" data-achievement="2">
+                        <div class="achievement-icon" data-content="ach2Icon">⭐</div>
+                        <h3 class="achievement-title" data-content="ach2Title">Achievement Title 2</h3>
+                        <p class="achievement-description" data-content="ach2Description">Description of the achievement...</p>
+                        <span class="achievement-year" data-content="ach2Year">Year</span>
+                    </div>
+                    
+                    <div class="achievement-item" data-achievement="3">
+                        <div class="achievement-icon" data-content="ach3Icon">🎖️</div>
+                        <h3 class="achievement-title" data-content="ach3Title">Achievement Title 3</h3>
+                        <p class="achievement-description" data-content="ach3Description">Description of the achievement...</p>
+                        <span class="achievement-year" data-content="ach3Year">Year</span>
+                    </div>
+                    
+                    <div class="achievement-item" data-achievement="4">
+                        <div class="achievement-icon" data-content="ach4Icon">🌟</div>
+                        <h3 class="achievement-title" data-content="ach4Title">Achievement Title 4</h3>
+                        <p class="achievement-description" data-content="ach4Description">Description of the achievement...</p>
+                        <span class="achievement-year" data-content="ach4Year">Year</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title" data-content="contactTitle">Get In Touch</h2>
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3 class="contact-subtitle" data-content="contactSubtitle">Let's Connect</h3>
+                        <p class="contact-description" data-content="contactDescription">I'm always open to discussing new opportunities, collaborations, or sharing insights about AI and technology leadership.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <a href="mailto:email@example.com" class="contact-link" data-content="contactEmail">email@example.com</a>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <span class="contact-text" data-content="contactLocation">Location</span>
+                            </div>
+                        </div>
+                        
+                        <!-- TODO: Update social handles below -->
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="LinkedIn" data-social="linkedin">
+                                <span>LinkedIn</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter" data-social="twitter">
+                                <span>Twitter</span>
+                            </a>
+                            <a href="#" class="social-link" aria-label="GitHub" data-social="github">
+                                <span>GitHub</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-wrapper">
+                        <form class="contact-form" id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label" data-content="formLabelName">Name</label>
+                                <input type="text" id="name" name="name" class="form-input" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label" data-content="formLabelEmail">Email</label>
+                                <input type="email" id="email" name="email" class="form-input" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject" class="form-label" data-content="formLabelSubject">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-input" required aria-required="true">
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label" data-content="formLabelMessage">Message</label>
+                                <textarea id="message" name="message" class="form-textarea" rows="5" required aria-required="true"></textarea>
+                            </div>
+                            <button type="submit" class="form-submit" data-content="formSubmit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 class="footer-name" data-content="footerName">Your Name</h3>
+                    <p class="footer-tagline" data-content="footerTagline">Technology Leadership & AI Transformation</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h4 class="footer-heading" data-content="footerQuickLinks">Quick Links</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#home" data-content="footerHome">Home</a></li>
+                        <li><a href="#about" data-content="footerAbout">About</a></li>
+                        <li><a href="#experience" data-content="footerExperience">Experience</a></li>
+                        <li><a href="#contact" data-content="footerContact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-social">
+                    <h4 class="footer-heading" data-content="footerConnect">Connect</h4>
+                    <!-- TODO: Update social handles below -->
+                    <div class="footer-social-links">
+                        <a href="#" class="footer-social-link" aria-label="LinkedIn" data-social="linkedin">
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="Twitter" data-social="twitter">
+                            <span>Twitter</span>
+                        </a>
+                        <a href="#" class="footer-social-link" aria-label="GitHub" data-social="github">
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright" data-content="footerCopyright">&copy; 2024 All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
