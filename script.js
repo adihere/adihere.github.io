@@ -24,8 +24,8 @@ const siteContent = {
 
     // Hero Section
     heroName: "Technology Leader -  Digital & AI Transformation ",
-    heroTitle: "Worked across engineering, cloud, and large‑scale transformation, now focused on turning AI from hype into production",
-    heroTagline: "I help technology and business units transform into simpler, smarter and safer delivery units by leveraging technology. \n I have two decades of global experience driving digital transformation across enterpirses - especially financial services - leveraging technology to enable better outcomes for clients. Currently , I lead the Innovation COE for a global asset management firm - focusing on AI strategy , solution delivery and adoption. I remain a hands-on geek.",
+    heroTitle: "Bridging the gap between complex engineering and business value. Focused on turning AI from hype into production",
+    heroTagline: "I partner with business and technology units to build simpler, smarter, and safer delivery models. With over two decades of global experience—primarily within the high-stakes Financial Services sector—I leverage emerging technology to drive superior client outcomes.Currently, I lead the Innovation COE for a global asset management firm, where I oversee AI strategy, solution delivery, and enterprise-wide adoption. Despite my leadership focus, I remain a hands-on geek at heart.",
     ctaPrimary: "Get In Touch",
     ctaSecondary: "Download CV",
     profileImageAlt: "Profile Image",
@@ -102,7 +102,7 @@ const siteContent = {
     engagements: [
         {
             date: "2025 – present",
-            role: "Technology Solutions Manager - Innovation Centre of Excellence (GenAI, Data Science, Lo-Code)",
+            role: "Technology Leadership - Innovation CoE (Emerging Technology - AI)",
             company: "Current Role",
             description: "Leading enterprise-wide adoption of generative AI, data science, and no-code to transform asset management operations, directing the Innovation CoE, driving AI deployment across investment workflows, and democratizing analytics via no-code platforms.",
             achievements: []
@@ -115,17 +115,10 @@ const siteContent = {
             achievements: []
         },
         {
-            date: "2020",
+            date: "2020 - 2025",
             role: "Ways of Working and Operating Model Transformation",
             company: "Global Investment Bank",
             description: "Ways of working and operating model transformation for enterprise infrastructure – Coaching/consulting across fleets on new operating model, Agile advisory, scaling methods, enabling 3 global infra platforms, 30 fleets, 400 teams with double‑digit lead-time improvement.",
-            achievements: []
-        },
-        {
-            date: "2020",
-            role: "Learning and Personal Break During the Pandemic",
-            company: "Professional Development",
-            description: "AWS cloud architect and Azure certifications, hands-on Terraform and blockchain smart contracts.",
             achievements: []
         },
         {
