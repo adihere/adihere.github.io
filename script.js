@@ -25,7 +25,7 @@ const siteContent = {
     // Hero Section
     heroName: "Technology Leader -  Digital & AI Transformation ",
     heroTitle: "Worked across engineering, cloud, and large‑scale transformation, now focused on turning AI from hype into production",
-    heroTagline: "I help technology and business units transform into simpler, smarter and safer delivery units by leveraging technology.He has two decades of global experience driving digital transformation across financial services - leveraging technology to enable better outcomes for clients. Currently , he leads the Innovation COE for a global asset management firm working closely with business users - focusing on AI solution delivery and adoption using emerging technology stack. He remains a hands-on geek.",
+    heroTagline: "I help technology and business units transform into simpler, smarter and safer delivery units by leveraging technology. \n I have two decades of global experience driving digital transformation across enterpirses - especially financial services - leveraging technology to enable better outcomes for clients. Currently , I lead the Innovation COE for a global asset management firm - focusing on AI strategy , solution delivery and adoption. I remain a hands-on geek.",
     ctaPrimary: "Get In Touch",
     ctaSecondary: "Download CV",
     profileImageAlt: "Profile Image",
@@ -246,6 +246,20 @@ const siteContent = {
             company: "National Central Bank",
             description: "Software developer for a greenfield securities trading and settlement platform – C++/Java on mainframes for messaging/security in a critical government securities system.",
             achievements: []
+        },
+        {
+            date: "1999 – 2000",
+            role: "Junior Software Developer",
+            company: "Technology Services Firm",
+            description: "Junior software developer working on client projects – Developed web applications using Java and database integration, participated in full software development lifecycle.",
+            achievements: []
+        },
+        {
+            date: "1998 – 1999",
+            role: "Software Intern",
+            company: "Enterprise Software Company",
+            description: "Software development internship – Gained hands-on experience in software development, learned industry best practices, and contributed to internal tools development.",
+            achievements: []
         }
     ],
 
@@ -291,25 +305,25 @@ const siteContent = {
             icon: "🎓",
             degree: "B.Tech in Computer Engineering",
             institution: "SPJIMR, Mumbai",
-            year: "Graduation Year"
+            year: "2001"
         },
         {
             icon: "📜",
             degree: "MBA in Information Management",
             institution: "SPJIMR, Mumbai",
-            year: "Graduation Year"
+            year: "2007"
         },
         {
             icon: "📚",
             degree: "AWS Certified Solutions Architect",
             institution: "Amazon Web Services",
-            year: "Certification Year"
+            year: "2020"
         },
         {
             icon: "🏅",
             degree: "Azure Solutions Architect Expert",
             institution: "Microsoft",
-            year: "Certification Year"
+            year: "2020"
         }
     ],
 
@@ -318,6 +332,7 @@ const siteContent = {
     contactSubtitle: "Let's Connect",
     contactDescription: "Let's connect and explore how we can collaborate on AI initiatives, technology transformation, or share insights on driving innovation in financial services.",
     contactLocation: "London, UK",
+    contactEmail: "your.email@example.com",
 
     // Social Links
     socialLinks: {

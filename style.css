@@ -8,7 +8,7 @@
    ======================================== */
 
 /* Google Fonts Import */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root {
     /* Color Palette - Dark Theme with Executive Aesthetic */
@@ -27,7 +27,7 @@
     
     /* Text Colors */
     --color-text-primary: #f0f2f5;
-    --color-text-secondary: #b0b8c4;
+    --color-text-secondary: #d4dbe5;
     --color-text-muted: #7a8494;
     --color-text-accent: #4f8aff;
     
@@ -44,7 +44,7 @@
     --color-border-accent: #4f8aff;
     
     /* Font Families */
-    --font-heading: 'Cinzel', serif;
+    --font-heading: 'Montserrat', sans-serif;
     --font-body: 'Inter', sans-serif;
     
     /* Font Sizes */
@@ -419,8 +419,8 @@ section {
 }
 
 .profile-image {
-    width: 400px;
-    height: 400px;
+    width: 320px;
+    height: 320px;
     object-fit: cover;
     border: 3px solid var(--color-border);
     border-radius: var(--radius-xl);
@@ -1044,6 +1044,7 @@ section {
     display: flex;
     gap: var(--spacing-md);
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .social-link {
@@ -1137,6 +1138,7 @@ section {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-sm);
+    align-items: center;
 }
 
 .footer-social-link {
@@ -1370,8 +1372,8 @@ section {
     }
     
     .profile-image {
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
     
     .about-highlights {
