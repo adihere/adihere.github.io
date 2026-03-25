@@ -23,7 +23,7 @@ const siteContent = {
     navContact: "Contact",
 
     // Hero Section
-    heroName: "Technology Leader -  Digital & AI Transformation ",
+    heroName: "Digital & AI - Strategy, Transformation & Execution",
     heroTitle: "Bridging the gap between complex engineering and business value. Focused on turning AI from hype into production",
     heroTagline: "I partner with business and technology units to build simpler, smarter, and safer delivery models. With over two decades of global experience—primarily within the high-stakes Financial Services sector—I leverage emerging technology to drive superior client outcomes.Currently, I lead the Innovation COE for a global asset management firm, where I oversee AI strategy, solution delivery, and enterprise-wide adoption. Despite my leadership focus, I remain a hands-on geek at heart.",
     ctaPrimary: "Get In Touch",
