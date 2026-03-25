@@ -470,18 +470,6 @@ section {
     box-shadow: 0 6px 20px rgba(79, 138, 255, 0.4);
 }
 
-.cta-button.secondary {
-    background-color: transparent;
-    color: var(--color-secondary);
-    border-color: var(--color-secondary);
-}
-
-.cta-button.secondary:hover {
-    background-color: var(--color-secondary);
-    color: var(--color-bg-primary);
-    transform: translateY(-2px);
-}
-
 
 /* ========================================
    CARDS
@@ -641,6 +629,33 @@ section {
     margin-bottom: var(--spacing-lg);
 }
 
+.about-achievements {
+    list-style: none;
+    padding-left: 0;
+    margin-top: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
+}
+
+.about-achievements li {
+    font-size: var(--font-size-sm);
+    line-height: 1.7;
+    color: var(--color-text-muted);
+    margin-bottom: var(--spacing-sm);
+    padding-left: 2rem;
+    position: relative;
+}
+
+.about-achievements li::before {
+    content: '\f091';
+    font-family: 'Font Awesome 6 Free';
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 0.2rem;
+    color: var(--color-secondary);
+    font-size: 1rem;
+}
+
 .about-highlights {
     display: flex;
     flex-direction: column;
@@ -670,6 +685,10 @@ section {
     font-weight: 700;
     color: var(--color-primary);
     margin-bottom: var(--spacing-xs);
+}
+
+.highlight-number.highlight-text {
+    color: var(--color-secondary);
 }
 
 .highlight-label {
