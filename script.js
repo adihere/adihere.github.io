@@ -9,7 +9,6 @@
 // Centralized content management - edit this object to update site content
 // TODO: Add/edit gigs, case studies, skills, achievements as needed
 // TODO: Update CV file link in index.html line 61
-// TODO: Replace profile image in index.html line 67
 // TODO: Update social handles below
 const siteContent = {
     // Navigation
@@ -24,9 +23,9 @@ const siteContent = {
     navContact: "Contact",
 
     // Hero Section
-    heroName: "Senior Technology Leader",
-    heroTitle: "Senior Technology Leader & AI Transformation Partner",
-    heroTagline: "Transforming enterprises through AI innovation and strategic technology leadership",
+    heroName: "Technology Leader -  Digital & AI Transformation ",
+    heroTitle: "Worked across engineering, cloud, and large‑scale transformation, now focused on turning AI from hype into production",
+    heroTagline: "I help technology and business units transform into simpler, smarter and safer delivery units by leveraging technology.He has two decades of global experience driving digital transformation across financial services - leveraging technology to enable better outcomes for clients. Currently , he leads the Innovation COE for a global asset management firm working closely with business users - focusing on AI solution delivery and adoption using emerging technology stack. He remains a hands-on geek.",
     ctaPrimary: "Get In Touch",
     ctaSecondary: "Download CV",
     profileImageAlt: "Profile Image",
@@ -37,10 +36,10 @@ const siteContent = {
     aboutDescription: "I am a hands-on yet strategic technology leader who brings a pragmatic approach to programme leadership. My focus is on bridging the gap between cutting-edge AI capabilities and practical business applications. Currently, I'm deeply engaged in helping organizations navigate the GenAI revolution, from initial strategy through to enterprise-wide adoption and scaling.",
     highlightYears: "23+",
     highlightYearsLabel: "Years Experience",
-    highlightProjects: "50+",
-    highlightProjectsLabel: "Projects Delivered",
-    highlightTransformations: "15+",
-    highlightTransformationsLabel: "AI Transformations",
+    highlightProjects: "12+",
+    highlightProjectsLabel: "Initiatives Delivered",
+    highlightTransformations: "5+",
+    highlightTransformationsLabel: "Digital Transformations",
 
     // Focus Areas
     focusTitle: "Focus Areas",
@@ -102,92 +101,151 @@ const siteContent = {
     experienceTitle: "Professional Engagements",
     engagements: [
         {
-            date: "Recent",
-            role: "Senior Technology Leader",
-            company: "Premier Financial Services Firm",
-            description: "Leading enterprise-wide adoption of GenAI, data science, and low-code platforms across the organization",
-            achievements: [
-                "Established AI governance framework and operating model",
-                "Scaled GenAI adoption from pilot to enterprise-wide implementation",
-                "Built cross-functional teams to support AI transformation"
-            ]
+            date: "2025 – present",
+            role: "Technology Solutions Manager - Innovation Centre of Excellence (GenAI, Data Science, Lo-Code)",
+            company: "Current Role",
+            description: "Leading enterprise-wide adoption of generative AI, data science, and no-code to transform asset management operations, directing the Innovation CoE, driving AI deployment across investment workflows, and democratizing analytics via no-code platforms.",
+            achievements: []
         },
         {
-            date: "Recent",
-            role: "Transformation Coach",
+            date: "2025",
+            role: "Global Technology Services Provider",
+            company: "Consulting Engagement",
+            description: "Delivery review and improvement of GenAI platform and pre-sales support – Delivery review of a GenAI sandbox platform to accelerate innovation and improve customer engagement and retention.",
+            achievements: []
+        },
+        {
+            date: "2020",
+            role: "Ways of Working and Operating Model Transformation",
             company: "Global Investment Bank",
-            description: "Coached infrastructure and operations teams through new operating model implementation",
-            achievements: [
-                "Redesigned operating model for improved efficiency",
-                "Implemented DevOps practices across infrastructure teams",
-                "Achieved significant reduction in deployment time"
-            ]
+            description: "Ways of working and operating model transformation for enterprise infrastructure – Coaching/consulting across fleets on new operating model, Agile advisory, scaling methods, enabling 3 global infra platforms, 30 fleets, 400 teams with double‑digit lead-time improvement.",
+            achievements: []
         },
         {
-            date: "Recent",
-            role: "Agile & DevOps Advisor",
-            company: "Scandinavia's Leading Bank",
-            description: "Advised on Agile and DevOps modern engineering practices",
-            achievements: [
-                "Developed modern engineering roadmap",
-                "Implemented CI/CD pipelines across development teams",
-                "Established quality assurance frameworks"
-            ]
+            date: "2020",
+            role: "Learning and Personal Break During the Pandemic",
+            company: "Professional Development",
+            description: "AWS cloud architect and Azure certifications, hands-on Terraform and blockchain smart contracts.",
+            achievements: []
         },
         {
-            date: "Recent",
-            role: "Automation Enablement Lead",
-            company: "Fortune 500 Manufacturer",
-            description: "Set up automation-enablement team to drive process optimization",
-            achievements: [
-                "Built automation capability from ground up",
-                "Implemented RPA solutions across business processes",
-                "Achieved measurable efficiency improvements"
-            ]
+            date: "2018 – 2020",
+            role: "DevOps and Agile Transformation",
+            company: "Leading Scandinavian Bank",
+            description: "DevOps and Agile transformation – Shaped and scaled ways-of-working strategy, modern engineering for infra teams, multi-million NOK savings via tooling optimisation.",
+            achievements: []
         },
         {
-            date: "Recent",
-            role: "Analytics Service Line Lead",
-            company: "Global Industrial Client",
-            description: "Built agile analytics service line to support data-driven decision making",
-            achievements: [
-                "Established analytics team and processes",
-                "Delivered multiple high-impact analytics projects",
-                "Created data governance framework"
-            ]
+            date: "2017 – 2018",
+            role: "Global DevOps and Agile Transformation",
+            company: "Global Chemical Manufacturer",
+            description: "Global DevOps and Agile transformation – Helped launch enterprise-wide DevOps transformation strategy across a large global manufacturer.",
+            achievements: []
         },
         {
-            date: "Recent",
-            role: "Managed Service Co-Lead",
-            company: "UK Bank",
-            description: "Co-led setup and scaling of large managed service operation",
-            achievements: [
-                "Scaled managed service to support multiple business units",
-                "Established service level agreements and governance",
-                "Built high-performing delivery teams"
-            ]
+            date: "2016 – 2017",
+            role: "DevOps Transformation",
+            company: "Global Insurance and Banking Group",
+            description: "DevOps transformation of a 600-member IT team for global insurance – Operating model change to squads, automation across open systems/mainframes/AS400, scaled Agile ways of working.",
+            achievements: []
         },
         {
-            date: "Recent",
-            role: "Portfolio Manager",
-            company: "International Markets",
-            description: "Managed ~90-person portfolio delivering to 30+ international markets",
-            achievements: [
-                "Coordinated delivery across multiple geographies",
-                "Optimized resource allocation and utilization",
-                "Maintained high delivery quality across diverse markets"
-            ]
+            date: "2016",
+            role: "DevOps Maturity Assessment",
+            company: "National Postal & Logistics Organisation",
+            description: "DevOps maturity assessment – Assessed DevOps state and recommended improvements.",
+            achievements: []
         },
         {
-            date: "Recent",
+            date: "2016",
+            role: "Agile Analytics Service Line Setup",
+            company: "Global Energy & Resources Company",
+            description: "Setup of an Agile Analytics Service line – Built Agile analytics delivery framework on SAP HANA/Hadoop on AWS, reducing time-to-query from 3 months to 2 weeks.",
+            achievements: []
+        },
+        {
+            date: "2016",
+            role: "Agile/DevOps Transformation Consultant",
+            company: "UK-based Life & Pensions Provider",
+            description: "Agile/DevOps transformation consultant – Formulated and kick-started an Agile & DevOps-focused innovation roadmap.",
+            achievements: []
+        },
+        {
+            date: "2015 – 2016",
+            role: "Delivery Management",
+            company: "Major UK Retail and Commercial Bank",
+            description: "Delivery management of critical batch testing work stream – Managed testing for a major bank de-merger batch stream.",
+            achievements: []
+        },
+        {
+            date: "2015",
+            role: "Quality Architect",
+            company: "Central Government Department",
+            description: "Quality Architect for multiple DevOps infra automation squads – Test strategy for infra automation; early award-winning infra automation adoption.",
+            achievements: []
+        },
+        {
+            date: "2013 – 2014",
+            role: "Test Programme Management",
+            company: "UK Building Society",
+            description: "Test programme management for intranet and COREP/FINREP regulatory projects.",
+            achievements: []
+        },
+        {
+            date: "2013",
+            role: "Test Management",
+            company: "Leading UK Health & Beauty Retailer",
+            description: "Test Management of multi-site e-commerce rollout to 20+ countries.",
+            achievements: []
+        },
+        {
+            date: "2012 – 2013",
+            role: "Agile Delivery Management",
+            company: "European Payments Network",
+            description: "Agile Delivery Management of Digital Wallet rollout – Reduced time-to-market from 9 to 3 months; early at-scale Agile rollout in European FS.",
+            achievements: []
+        },
+        {
+            date: "2011 – 2012",
+            role: "Consulting Assignments",
+            company: "Multiple European Media and Financial Services Clients",
+            description: "Short consulting assignments; set up European Test Consulting practice.",
+            achievements: []
+        },
+        {
+            date: "2010",
+            role: "Portfolio Delivery Management",
+            company: "Global Payments & Card Services Provider",
+            description: "Portfolio delivery management of a 90-person test portfolio – Recovered a managed service; margins from negative to double-digit.",
+            achievements: []
+        },
+        {
+            date: "2007 – 2009",
+            role: "Delivery Management and Assurance",
+            company: "Major UK Banking Group",
+            description: "Delivery management and assurance roles – QA oversight of key programmes, recovery of troubled programmes, ramp-up of managed test service from 10 to ~800 people.",
+            achievements: []
+        },
+        {
+            date: "2005 – 2007",
+            role: "Full-time MBA in Information Management",
+            company: "Leading Indian Business School",
+            description: "Awards and leadership in experiential learning and rural banking/tourism initiatives.",
+            achievements: []
+        },
+        {
+            date: "2001 – 2005",
             role: "Full-stack IT Consultant",
-            company: "Global Financial Services",
-            description: "Worked as full-stack IT consultant on global roll-out of corporate payments platform",
-            achievements: [
-                "Contributed to platform architecture and implementation",
-                "Supported deployment across multiple regions",
-                "Resolved complex technical challenges"
-            ]
+            company: "International Financial Institution",
+            description: "Full stack IT consultant for global corporate payment system – Built and rolled out payment system across 10 African markets; major offshore transition effort.",
+            achievements: []
+        },
+        {
+            date: "2000 – 2001",
+            role: "Software Developer",
+            company: "National Central Bank",
+            description: "Software developer for a greenfield securities trading and settlement platform – C++/Java on mainframes for messaging/security in a critical government securities system.",
+            achievements: []
         }
     ],
 
@@ -260,11 +318,6 @@ const siteContent = {
     contactSubtitle: "Let's Connect",
     contactDescription: "Let's connect and explore how we can collaborate on AI initiatives, technology transformation, or share insights on driving innovation in financial services.",
     contactLocation: "London, UK",
-    formLabelName: "Name",
-    formLabelEmail: "Email",
-    formLabelSubject: "Subject",
-    formLabelMessage: "Message",
-    formSubmit: "Send Message",
 
     // Social Links
     socialLinks: {
@@ -274,7 +327,7 @@ const siteContent = {
     },
 
     // Footer
-    footerName: "Senior Technology Leader",
+    footerName: "Technology Leader -  Digital & AI Transformation ",
     footerTagline: "Technology Leadership & AI Transformation",
     footerQuickLinks: "Quick Links",
     footerHome: "Home",
@@ -298,7 +351,12 @@ function renderHero() {
     setTextContent('[data-content="heroTagline"]', siteContent.heroTagline);
     setTextContent('[data-content="ctaPrimary"]', siteContent.ctaPrimary);
     setTextContent('[data-content="ctaSecondary"]', siteContent.ctaSecondary);
-    setTextContent('[data-content="profileImageAlt"]', siteContent.profileImageAlt);
+    
+    // Set alt attribute on profile image
+    const profileImage = document.querySelector('.profile-image');
+    if (profileImage) {
+        profileImage.alt = siteContent.profileImageAlt;
+    }
 }
 
 /**
@@ -460,11 +518,6 @@ function renderContact() {
     setTextContent('[data-content="contactSubtitle"]', siteContent.contactSubtitle);
     setTextContent('[data-content="contactDescription"]', siteContent.contactDescription);
     setTextContent('[data-content="contactLocation"]', siteContent.contactLocation);
-    setTextContent('[data-content="formLabelName"]', siteContent.formLabelName);
-    setTextContent('[data-content="formLabelEmail"]', siteContent.formLabelEmail);
-    setTextContent('[data-content="formLabelSubject"]', siteContent.formLabelSubject);
-    setTextContent('[data-content="formLabelMessage"]', siteContent.formLabelMessage);
-    setTextContent('[data-content="formSubmit"]', siteContent.formSubmit);
     
     // Update email link if email is provided
     if (siteContent.contactEmail) {
@@ -682,108 +735,6 @@ function initScrollAnimations() {
     });
 }
 
-// ============================================
-// FORM VALIDATION
-// ============================================
-
-/**
- * Initialize contact form validation
- */
-function initFormValidation() {
-    const form = document.getElementById('contactForm');
-    
-    if (form) {
-        form.addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            if (validateForm(form)) {
-                // Form is valid - in production, you would send to server here
-                alert('Thank you for your message! This is a demo form - no data was sent.');
-                form.reset();
-            }
-        });
-        
-        // Real-time validation
-        const formInputs = form.querySelectorAll('input, textarea');
-        formInputs.forEach(input => {
-            input.addEventListener('blur', function() {
-                validateField(this);
-            });
-            
-            input.addEventListener('input', function() {
-                // Clear error on input
-                this.classList.remove('error');
-                const errorMessage = this.parentNode.querySelector('.error-message');
-                if (errorMessage) {
-                    errorMessage.remove();
-                }
-            });
-        });
-    }
-}
-
-/**
- * Validate entire form
- */
-function validateForm(form) {
-    let isValid = true;
-    const inputs = form.querySelectorAll('input, textarea');
-    
-    inputs.forEach(input => {
-        if (!validateField(input)) {
-            isValid = false;
-        }
-    });
-    
-    return isValid;
-}
-
-/**
- * Validate individual form field
- */
-function validateField(field) {
-    // Remove existing error
-    field.classList.remove('error');
-    const existingError = field.parentNode.querySelector('.error-message');
-    if (existingError) {
-        existingError.remove();
-    }
-    
-    let isValid = true;
-    let errorMessage = '';
-    
-    // Check required fields
-    if (field.hasAttribute('required') && !field.value.trim()) {
-        isValid = false;
-        errorMessage = 'This field is required';
-    }
-    
-    // Email validation
-    if (field.type === 'email' && field.value.trim()) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(field.value.trim())) {
-            isValid = false;
-            errorMessage = 'Please enter a valid email address';
-        }
-    }
-    
-    // Minimum length for message
-    if (field.tagName === 'TEXTAREA' && field.value.trim() && field.value.trim().length < 10) {
-        isValid = false;
-        errorMessage = 'Message must be at least 10 characters';
-    }
-    
-    // Display error if validation failed
-    if (!isValid) {
-        field.classList.add('error');
-        const errorElement = document.createElement('span');
-        errorElement.className = 'error-message';
-        errorElement.textContent = errorMessage;
-        field.parentNode.appendChild(errorElement);
-    }
-    
-    return isValid;
-}
 
 // ============================================
 // INITIALIZATION
@@ -810,9 +761,6 @@ function init() {
     
     // Initialize scroll animations
     initScrollAnimations();
-    
-    // Initialize form validation
-    initFormValidation();
     
     // Add scroll event listener for active nav link
     window.addEventListener('scroll', updateActiveNavLink);
