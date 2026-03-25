@@ -324,7 +324,6 @@ const siteContent = {
     contactTitle: "Get In Touch",
     contactSubtitle: "Let's Connect",
     contactDescription: "Let's connect and explore how we can collaborate on AI initiatives, technology transformation, or share insights on driving innovation in financial services.",
-    contactLocation: "London, UK",
     contactEmail: "your.email@example.com",
 
     // Social Links
@@ -525,7 +524,6 @@ function renderContact() {
     setTextContent('[data-content="contactTitle"]', siteContent.contactTitle);
     setTextContent('[data-content="contactSubtitle"]', siteContent.contactSubtitle);
     setTextContent('[data-content="contactDescription"]', siteContent.contactDescription);
-    setTextContent('[data-content="contactLocation"]', siteContent.contactLocation);
     
     // Update email link if email is provided
     if (siteContent.contactEmail) {
