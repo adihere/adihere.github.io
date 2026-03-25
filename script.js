@@ -342,7 +342,7 @@ const siteContent = {
     footerExperience: "Experience",
     footerContact: "Contact",
     footerConnect: "Connect",
-    footerCopyright: "© 2024 All Rights Reserved"
+    footerCopyright: "© 2026 All Rights Reserved"
 };
 
 // ============================================
