@@ -239,21 +239,7 @@ const siteContent = {
             company: "National Central Bank",
             description: "Software developer for a greenfield securities trading and settlement platform – C++/Java on mainframes for messaging/security in a critical government securities system.",
             achievements: []
-        },
-        {
-            date: "1999 – 2000",
-            role: "Junior Software Developer",
-            company: "Technology Services Firm",
-            description: "Junior software developer working on client projects – Developed web applications using Java and database integration, participated in full software development lifecycle.",
-            achievements: []
-        },
-        {
-            date: "1998 – 1999",
-            role: "Software Intern",
-            company: "Enterprise Software Company",
-            description: "Software development internship – Gained hands-on experience in software development, learned industry best practices, and contributed to internal tools development.",
-            achievements: []
-        }
+        },      
     ],
 
     // Case Studies Section
